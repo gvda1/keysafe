@@ -1,0 +1,14 @@
+{
+  "name": "keysafe",
+  "private": true,
+  "workspaces": ["apps/*", "packages/*"],
+  "scripts": {
+    "dev:admin": "pnpm --filter admin-web dev",
+    "dev:rider": "pnpm --filter rider start",
+    "dev:driver": "pnpm --filter driver start"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "pnpm": "latest"
+  }
+}
